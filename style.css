@@ -1,0 +1,82 @@
+body {
+  background-color: aliceblue;
+}
+
+/* bascally containers are used to center the complete contenet on the page */
+
+/*
+for with always use the percentage inside of px since percentage will 
+be much more responsive
+
+*/
+
+.container {
+  border: 3px solid indianred;
+  width: 60%;
+  margin: auto;
+}
+
+/*
+here we can see that padding is 50px in all the 4 sides
+means the contenet inside the green box is 50px from the wall 
+from all the 3 sides
+*/
+
+/*
+margin is outside the border
+*/
+
+.box-1 {
+  border: 5px solid greenyellow;
+  padding: 50px;
+
+  margin-top: 50px;
+}
+
+.box-1 h1 {
+  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: uppercase;
+}
+
+.categories h1 {
+  text-align: center;
+}
+
+.categories a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+  font-size: larger;
+}
+
+.categories li {
+  padding-bottom: 8px;
+  border-bottom: 1px dotted #333;
+}
+
+.block-3 {
+  width: 30%;
+  float: left;
+  padding-right: 1%;
+}
+
+.clr {
+  clear: both;
+}
+
+.block-4 {
+  margin-top: 10%;
+  margin-bottom: 100px;
+  border: 5px solid wheat;
+  position: relative;
+}
+
+#helloworld {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
